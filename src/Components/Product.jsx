@@ -17,14 +17,23 @@ const Productpage = () => {
     fetchProducts()
   }, [])
 
+   //Handle delete //
+  const handleDelete = (id) => {
+    console.log(id)
+    const updatedProducts = products.filter(product => product.id !== id);
+    setProducts(updatedProducts);
+  };
   
 
   return (
-    <div>
-      <h1>Product Page</h1>
-      {products.map((el) => (
-        <ProductCard key={el.id} {...el} />
-      ))}
+     <div className="container mt-4">
+      <div className="row justify-content-center">
+        {products.map((product) => (
+          <div className="col-md-4 d-flex justify-content-center mb-4">
+            <ProductCard key={product.id} {...product} onDelete={() => handleDelete(product.id)} />
+          </div>
+        ))}
+      </div>
     </div>
   )
 }

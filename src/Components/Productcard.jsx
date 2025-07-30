@@ -1,9 +1,10 @@
-import React from 'react'
 import { Card, Button } from 'react-bootstrap'
 import { Link } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-const Productcard = ({ id, title, price, description, category, image, rating }) => {
+
+const Productcard = ({ id, title, price, image,onDelete }) => {
   return (
     <div className="contain">
       <Card className="product-card">
@@ -12,7 +13,7 @@ const Productcard = ({ id, title, price, description, category, image, rating })
         </Link>
 
         <Card.Body>
-          <Card.Title className="product-title">{title.substring(0, 30) + "..."}</Card.Title>
+          <Card.Title className="product-title">{title.substring(0, 35) + "..."}</Card.Title>
           <Card.Text className="product-price">{price}</Card.Text>
           <Button variant="primary" className="add-btn">Add to Cart</Button>
         </Card.Body>
