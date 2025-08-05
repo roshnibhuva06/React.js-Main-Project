@@ -16,6 +16,7 @@ const Description = () => {
                 setProducts(response.data)
             } catch (error) {
                 console.error(error)
+                
             }
         };
         useEffect(()=>
