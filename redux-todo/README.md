@@ -27,4 +27,5 @@ By using this project, you'll:
 
   <h2>Screenshort</h2>
   
-<img width="1033" height="785" alt="Screenshot 2025-08-11 084402" src="https://github.com/user-attachments/assets/36c134cb-b4fa-4dd2-9303-60c281be8d0e" />
+
+<img width="1888" height="861" alt="Screenshot 2025-08-11 084540" src="https://github.com/user-attachments/assets/f4e1d840-1c8e-4bc0-9a04-eeea09225cb2" />
