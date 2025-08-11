@@ -1,12 +1,30 @@
-# React + Vite
+<h1>📝 Todo App with Redux Toolkit & React</h1>
+A simple yet powerful **Todo Application** built using **React** ⚛️ and **Redux Toolkit** 🛠️.  
+Easily **Add ✏️**, **Edit 🛠️**, and **Delete 🗑️** your tasks with a clean and responsive UI.  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h3> 🚀 Features</h3>
+- ➕ **Add** new tasks to your to-do list
+- ✏️ **Edit** tasks when needed
+- ❌ **Delete** tasks you no longer need
+- 📦 **Manage state efficiently** with Redux Toolkit
+- 📱 **Use the app on both desktop and mobile devices**
 
-Currently, two official plugins are available:
+- **For Beginners**:
+  - Learn how to integrate **Redux Toolkit** with React.
+  - Understand how to create and use **Redux slices** for actions like add, update, and delete.
+  - Practice using **React hooks**: `useState`, `useDispatch`, and `useSelector`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ 🎯 Learning Outcomes
+By using this project, you'll:
+- Gain confidence with **React + Redux Toolkit** integration.
+- Understand **data flow and store updates**.
+- Learn **scalable patterns** for real-world apps.
 
-## Expanding the ESLint configuration
+💡 This project is a **great starting point** for building more complex apps like:
+- 🛒 Shopping carts
+- 🗒️ Note-taking apps
+- 📊 Task tracking dashboards
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  <h2>Screenshort</h2>
+  
+<img width="1033" height="785" alt="Screenshot 2025-08-11 084402" src="https://github.com/user-attachments/assets/36c134cb-b4fa-4dd2-9303-60c281be8d0e" />
