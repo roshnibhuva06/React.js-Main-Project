@@ -1,0 +1,118 @@
+/* Overall Container */
+.contain {
+  max-width: 500px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-family: Arial, sans-serif;
+}
+
+/* Heading */
+.contain h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Input Container */
+.input-contain {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Input Field */
+.input-contain input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.input-contain input:focus {
+  border-color: #4cafef;
+  outline: none;
+}
+
+/* Buttons */
+.input-contain button {
+  background-color: #4cafef;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.input-contain button:hover {
+  background-color: #399adf;
+}
+
+/* Todo List */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Todo Item */
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f8f8;
+  margin-bottom: 10px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+li:hover {
+  background: #f1f1f1;
+}
+
+/* Delete Button */
+.delete {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.25s ease;
+}
+
+.delete:hover {
+  background-color: #e63c3c;
+}
+
+/* Edit Button */
+.Edit-btn {
+  background-color: #ffa500;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.Edit-btn:hover {
+  background-color: #e69500;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .input-contain {
+    flex-direction: column;
+  }
+
+  .input-contain button {
+    width: 100%;
+  }
+}
