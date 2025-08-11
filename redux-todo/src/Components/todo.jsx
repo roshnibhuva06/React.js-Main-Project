@@ -5,7 +5,7 @@ import { Addtodo, Remove, Updatetodo } from "../Features/todoSlice"
 
 const Input = () => {
 
-    const [TextInput, setTextInput] = useState()
+    const [TextInput, setTextInput] = useState("");
     const [EditId, setEditId] = useState(null)
     const disptach = useDispatch()
     const Todos = useSelector(state => state.Todos)
@@ -13,21 +13,21 @@ const Input = () => {
     const handleAddorEdit = () => {
         if (!TextInput.trim()) return;
 
-        if(EditId){
-            disptach(Updatetodo({id: EditId, text: TextInput}));
+        if (EditId) {
+            disptach(Updatetodo({ id: EditId, text: TextInput }));
             setEditId(null);
-        }else{
+        } else {
             disptach(Addtodo(TextInput));
         }
-          setTextInput(""); 
-        
+        setTextInput("");
+
     };
     return (
         <div className="contain">
             <h1>Todo App</h1>
             <div className="input-contain">
                 <input type="text" value={TextInput} onChange={(e) => setTextInput(e.target.value)} placeholder="Add todo " />
-            <button onClick={handleAddorEdit}> {EditId ? "Update" : "Add"}</button>
+                <button onClick={handleAddorEdit}> {EditId ? "Update" : "Add"}</button>
             </div>
             <ul>
                 {Todos.map((todo) => (
