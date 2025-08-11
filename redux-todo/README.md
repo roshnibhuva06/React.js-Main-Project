@@ -29,3 +29,5 @@ By using this project, you'll:
   
 
 <img width="1888" height="861" alt="Screenshot 2025-08-11 084540" src="https://github.com/user-attachments/assets/f4e1d840-1c8e-4bc0-9a04-eeea09225cb2" />
+
+Video link:https://drive.google.com/file/d/1M6_ShIPgxIrNHL7yjgWw24xH3zsI2rwN/view?usp=sharing
