@@ -1,6 +1,6 @@
 <h1>📝 Todo App with Redux Toolkit & React</h1>
 A simple yet powerful **Todo Application** built using **React** ⚛️ and **Redux Toolkit** 🛠️.  
-Easily **Add ✏️**, **Edit 🛠️**, and **Delete 🗑️** your tasks With a clean and responsive UI. 
+Easily **Add ✏️**, **Edit 🛠️**, and **Delete 🗑️** your tasks With a clean and responsive UI.  
 
 <h3> 🚀 Features</h3>
 - ➕ **Add** new tasks to your to-do list
